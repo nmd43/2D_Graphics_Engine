@@ -1,0 +1,37 @@
+canvas->scale(0.5f, 0.5f);
+
+canvas->save();
+canvas->concat(GMatrix(9.15385f,0,0,0,8.40206f,0));
+
+paint.setColor({0.486275f,0.305882f,0.196078f,1});
+path.reset();path.moveTo(14,85);path.lineTo(17,94);path.lineTo(89,94);path.cubicTo(89,94, 94,85, 93,84);path.cubicTo(91,82, 14,84, 14,85);
+canvas->drawPath(path, paint);
+paint.setColor({0.890196f,0,0,1});
+path.reset();path.moveTo(19,47);path.cubicTo(19,47, 10,54, 6,61);path.cubicTo(1,67, 9,68, 9,68);path.lineTo(10,82);path.cubicTo(10,82, 20,90, 33,90);path.cubicTo(47,90, 59,91, 61,90);path.cubicTo(63,89, 70,88, 70,86);path.cubicTo(71,85, 97,87, 97,77);path.cubicTo(97,67, 104,57, 86,48);path.cubicTo(69,39, 19,47, 19,47);
+canvas->drawPath(path, paint);
+paint.setColor({1,0.882353f,0.768627f,1});
+path.reset();path.moveTo(17,32);path.cubicTo(14,80, 97,75, 88,29);path.lineTo(53,14);
+canvas->drawPath(path, paint);
+paint.setColor({0.556863f,0.847059f,0.972549f,1});
+path.reset();path.moveTo(17,32);path.cubicTo(26,-4, 78,0, 88,29);path.cubicTo(68,20, 48,20, 17,32);
+canvas->drawPath(path, paint);
+paint.setColor({1,1,1,1});
+path.reset();path.moveTo(54,35);path.quadTo(54.026199f,29.610901f, 58.298199f,27.842300f);path.quadTo(62.570099f,26.073700f, 66.829002f,29.688900f);path.quadTo(71.087799f,33.304001f, 71.087898f,38.698799f);path.quadTo(71.087898f,44.093601f, 66.829102f,45.889900f);path.quadTo(62.570301f,47.686199f, 58.298302f,44.093300f);path.quadTo(54.026299f, 40.500301f, 54, 35.099998f);path.lineTo(54,35);path.moveTo(37,38);path.quadTo(37.026199f,32.599701f, 41.298100f,29.006599f);path.quadTo(45.570000f,25.413500f, 49.828899f,27.209700f);path.quadTo(54.087799f,29.005800f, 54.087898f,34.400600f);path.quadTo(54.088001f,39.795300f, 49.829201f,43.410599f);path.quadTo(45.570499f,47.025799f, 41.298401f,45.257500f);path.quadTo(37.026402f,43.489101f, 37,38.099998f);path.lineTo(37,38);
+canvas->drawPath(path, paint);
+paint.setColor({1,0.949020f,0,1});
+path.reset();path.moveTo(41,6);path.cubicTo(42,5, 45,3, 49,3);path.cubicTo(52,3, 58,2, 63,6);path.lineTo(62,8);path.lineTo(60,8);path.lineTo(58,8);path.cubicTo(58,8, 55,9, 53,8);path.cubicTo(51,7, 52,7, 52,7);path.lineTo(49,8);path.lineTo(47,7);path.lineTo(46,7);path.cubicTo(46,7, 45,9, 43,9);path.cubicTo(43,9, 41,8, 41,6);path.moveTo(17,34);path.lineTo(17,32);path.cubicTo(17,32, 52,12, 88,29);path.lineTo(88,31);path.cubicTo(88,31, 53,14, 17,34);path.moveTo(5,62);path.cubicTo(8,60, 10,60, 13,62);path.cubicTo(16,64, 26,68, 21,73);path.cubicTo(19,75, 15,73, 13,73);path.cubicTo(12,74, 9,75, 7,74);path.cubicTo(3,71, 1,66, 5,62);path.moveTo(99,59);path.cubicTo(99,59, 90,57, 88,63);path.lineTo(85,68);path.cubicTo(85,69, 83,71, 88,71);path.cubicTo(93,71, 93,73, 95,73);path.cubicTo(98,73, 102,72, 102,69);path.cubicTo(102,65, 101,58, 99,59);
+canvas->drawPath(path, paint);
+paint.setColor({0,0,0,1});
+path.reset();path.moveTo(56,78);path.lineTo(56,79);path.moveTo(55,69);path.lineTo(55,70);path.moveTo(55,87);path.lineTo(55,88);
+canvas->drawPath(path, paint);
+paint.setColor({0,0,0,1});
+path.reset();path.moveTo(56.500000f,78);path.lineTo(56.500000f,79);path.quadTo(56.500000f,79.207100f, 56.353600f,79.353600f);path.quadTo(56.207100f,79.500000f, 56,79.500000f);path.quadTo(55.792900f,79.500000f, 55.646400f,79.353600f);path.quadTo(55.500000f,79.207100f, 55.500000f,79);path.lineTo(55.500000f,78);path.quadTo(55.500000f,77.792900f, 55.646400f,77.646400f);path.quadTo(55.792900f,77.500000f, 56,77.500000f);path.quadTo(56.207100f,77.500000f, 56.353600f,77.646400f);path.quadTo(56.500000f,77.792900f, 56.500000f,78);path.moveTo(55.500000f,69);path.lineTo(55.500000f,70);path.quadTo(55.500000f,70.207100f, 55.353600f,70.353500f);path.quadTo(55.207100f,70.500000f, 55,70.500000f);path.quadTo(54.792900f,70.500000f, 54.646400f,70.353500f);path.quadTo(54.500000f,70.207100f, 54.500000f,70);path.lineTo(54.500000f,69);path.quadTo(54.500000f,68.792900f, 54.646400f,68.646400f);path.quadTo(54.792900f,68.500000f, 55,68.500000f);path.quadTo(55.207100f,68.500000f, 55.353600f,68.646400f);path.quadTo(55.500000f,68.792900f, 55.500000f,69);path.moveTo(55.500000f,87);path.lineTo(55.500000f,88);path.quadTo(55.500000f,88.207100f, 55.353600f,88.353500f);path.quadTo(55.207100f,88.500000f, 55,88.500000f);path.quadTo(54.792900f,88.500000f, 54.646400f,88.353500f);path.quadTo(54.500000f,88.207100f, 54.500000f,88);path.lineTo(54.500000f,87);path.quadTo(54.500000f,86.792900f, 54.646400f,86.646400f);path.quadTo(54.792900f,86.500000f, 55,86.500000f);path.quadTo(55.207100f,86.500000f, 55.353600f,86.646400f);path.quadTo(55.500000f,86.792900f, 55.500000f,87);
+canvas->drawPath(path, paint);
+paint.setColor({0,0,0,1});
+path.reset();path.moveTo(60,36);path.quadTo(59.971699f,36.565601f, 59.472099f,36.832199f);path.quadTo(58.972500f,37.098900f, 58.486900f,36.807598f);path.quadTo(58.001202f,36.516300f, 58.001202f,35.950001f);path.quadTo(58.001202f,35.383701f, 58.486900f,35.092400f);path.quadTo(58.972500f,34.801201f, 59.472099f,35.067799f);path.quadTo(59.971699f,35.334400f, 60,35.900002f);path.moveTo(49,36);path.quadTo(48.971699f,36.565601f, 48.472099f,36.832199f);path.quadTo(47.972500f,37.098900f, 47.486900f,36.807598f);path.quadTo(47.001202f,36.516300f, 47.001202f,35.950001f);path.quadTo(47.001202f,35.383701f, 47.486900f,35.092400f);path.quadTo(47.972500f,34.801201f, 48.472099f,35.067799f);path.quadTo(48.971699f,35.334400f, 49,35.900002f);path.moveTo(57,55);path.quadTo(56.980900f,56.720699f, 55.980999f,57.564602f);path.quadTo(54.981098f,58.408401f, 53.990700f,57.539700f);path.quadTo(53.000301f,56.671001f, 53.000301f,54.950001f);path.quadTo(53.000301f,53.229000f, 53.990700f,52.360298f);path.quadTo(54.981098f,51.491600f, 55.980999f,52.335400f);path.quadTo(56.980900f,53.179298f, 57,54.900002f);path.moveTo(12,94);path.cubicTo(12,94, 32,90, 54,94);path.cubicTo(54,94, 81,90, 93,94);path.lineTo(12,94);
+canvas->drawPath(path, paint);
+paint.setColor({0,0,0,1});
+path.reset();path.moveTo(50.150002f,58.799999f);path.quadTo(51.105999f,59.516998f, 52.802399f,59.880600f);path.quadTo(56.216599f,60.612202f, 59.888199f,58.776402f);path.lineTo(60.111801f,59.223598f);path.quadTo(56.283401f,61.137798f, 52.697601f,60.369400f);path.quadTo(50.893902f,59.982899f, 49.849998f,59.200001f);path.lineTo(50.150002f,58.799999f);path.moveTo(56.246601f,65.958900f);path.lineTo(58.253399f,78);path.lineTo(56.246601f,90.041100f);path.lineTo(55.753399f,89.958900f);path.lineTo(57.753399f,77.958900f);path.lineTo(58,78);path.lineTo(57.753399f,78.041100f);path.lineTo(55.753399f,66.041100f);path.lineTo(56.246601f,65.958900f);path.moveTo(25.192101f,49.840000f);path.quadTo(27.672300f,52.816200f, 31.771999f,55.797798f);path.quadTo(39.956402f,61.750000f, 48,61.750000f);path.quadTo(60.460201f,61.750000f, 66.172501f,59.887299f);path.quadTo(75.460403f,56.858601f, 82.798401f,46.852200f);path.lineTo(83.201599f,47.147800f);path.quadTo(75.768303f,57.284199f, 66.327499f,60.362701f);path.quadTo(60.539600f,62.250000f, 48,62.250000f);path.quadTo(39.793800f,62.250000f, 31.478001f,56.202202f);path.quadTo(27.327900f,53.183998f, 24.807899f,50.160000f);path.lineTo(25.192101f,49.840000f);
+canvas->drawPath(path, paint);
+
+canvas->restore();
