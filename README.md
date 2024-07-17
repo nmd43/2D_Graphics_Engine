@@ -1,4 +1,4 @@
-# 2D Graphics Engine
+# 2D Graphics Engine in C++
 
 ## Contributors: Nikita Daga | Supplementary code: Mike Reed
 
@@ -11,3 +11,18 @@
 * Tiling modes for the images are also available (clamp, repeat, and mirror). 
 * Different textures can be provided for each vertex to create a traingular or quadrilateral textured mesh.
 * All code is optimized to ensure that the graphics engine can render images in a timely manner.
+
+## Notes:
+
+* The /expected folder contains example images that were rendered using the engine
+* Tests can be run as:
+```bash
+$ make tests
+$ ./tests -v 
+```
+* Images can be made as:
+```bash
+$ make image
+$ ./image -e expected -v 
+```
+* Custom images can be authored under GDrawSomething
